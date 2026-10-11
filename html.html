@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday ❤️</title>
+    <!-- ربط ملف التنسيقات الخارجي -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div
+    id="heart-container"><</div>
+    <!-- شاشة كلمة السر (m10) -->
+    <div id="password-screen">
+        <h1 class="neon-text">For You ♡</h1>
+        <p class="sub-text">♡ Enter Password ♡</p>
+        <div class="input-container">
+            <input type="password" id="password" placeholder="••••••••">
+        </div>
+        <button id="enter-btn">Unlock ❤️</button>
+        <p id="error-message"></p>
+        <p class="footer-note">This is a special place for someone special ❤️</p>
+    </div>
+
+    <!-- المحتوى الرئيسي للموقع -->
+    <main id="main-content">
+        <header>
+            <div class="logo">For You ♡</div>
+            <nav>
+                <a href="#hero">Home</a>
+                <a href="#gallery">Photos</a>
+                <a href="#message">Message</a>
+                <a href="#music">Music</a>
+                <a href="#gift">Surprise</a>
+            </nav>
+            <div class="music-icon">🎵</div>
+        </header>
+
+        <section id="hero">
+            <h1 class="neon-birthday">Happy Birthday</h1>
+            <p class="arabic-greet">كل سنة وانتي طيبة يا فنانه ويارب اشوفك دكتوره كبيره وقد الدنيا ❤️</p>
+            
+            <div class="features-grid">
+                <div class="feature-item"><span>♡</span><p>You are Special</p></div>
+                <div class="feature-item"><span>🌹</span><p>You are Loved</p></div>
+                <div class="feature-item"><span>🎁</span><p>You are Precious</p></div>
+                <div class="feature-item"><span>✨</span><p>You are Amazing</p></div>
+            </div>
+        </section>
+
+        <!-- معرض صورها -->
+        <section id="gallery">
+            <h2>♡ Photos ♡</h2>
+            <div class="slider-container">
+                <img src="images/1jpg.jpeg.jpeg" alt="صورة لها 1">
+<img src="images/2jpg.jpeg.jpeg" alt="صورة لها 2">
+<img src="images/3jpg.jpeg.jpeg" alt="صورة لها 3">
+<img src="images/4jpg.jpeg.jpeg" alt="صورة لها 4">
+            </div>
+        </section>
+
+        <div class="flex-container">
+            <!-- قسم الرسالة الراقي -->
+            <section id="message">
+                <h3>❤️ A Message For You ❤️</h3>
+                <div class="envelope-box" id="env-click">
+                    <span class="heart-icon">❤️</span>
+                </div>
+                <p class="hint">Click the envelope to open the message</p>
+            </section>
+
+            <!-- قسم الهدية والمفاجأة -->
+            <section id="gift">
+                <h3>❤️ Surprise For You ❤️</h3>
+                <div class="gift-box" id="gift-click">
+                    <span class="gift-icon">🎁</span>
+                </div>
+                <p class="hint">Click the gift box to see the surprise</p>
+                
+                <!-- مكان ظهور صورة المفاجأة الرقمية -->
+                <div id="gift-image-container">
+                    <img src="images/gift.jpg.jpg" alt="Gift">
+                </div>
+            </section>
+        </div>
+
+        <!-- مشغل الموسيقى السفلي -->
+        <section id="music">
+            <div class="music-player">
+                <div class="song-info">
+                    <img src="images/her-photo1.jpg" alt="Cover" class="song-cover">
+                    <div>
+                        <h4>Happy Birthday To You</h4>
+                        <p>Best wishes for you ❤️</p>
+                    </div>
+                </div>
+                <<audio id="birthday-song" controls>
+    <source src="audio/song.mp3.mp3" type="audio/mpeg">
+</audio>
+</audio>
+        </section>
+    </main>
+
+    <!-- ربط ملف التحكم الخارجي -->
+    <script src="script.js"></script>
+</body>
+</html>
